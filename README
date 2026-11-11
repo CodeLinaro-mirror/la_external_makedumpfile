@@ -269,12 +269,14 @@
          pubkey2
          pubkey3
          pubkey4
+         pubkey5
+         pubkey6
 
-       As of September 2022, the pubkey4 is being used.
+       As of November 2026, the pubkey6 is being used.
        You can import it and verify a tag like this:
 
-         $ git cat-file blob pubkey4 | gpg --import
-         $ git tag -v 1.7.1
+         $ git cat-file blob pubkey6 | gpg --import
+         $ git tag -v 1.8.0
 
 * REFERENCES
   - The makedumpfile project page
